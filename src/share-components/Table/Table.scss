@@ -1,0 +1,46 @@
+.ReactTable {
+    padding: 1rem;
+    display: block;
+    overflow-y: auto;
+    .react-custom-table {
+        font-size: small;
+        font-weight: 400;
+        border-spacing: 0;
+        margin: auto;
+        thead {
+            background-color: cadetblue;
+            th {
+                vertical-align: bottom;
+                text-align: center;
+                font-weight: bold;
+                border: 1px solid black;
+            }
+            input {
+                border: 1px solid #cccccc !important;
+                border-radius: .25rem;
+                border-width: 0.5px;
+                padding-left: 10px;
+                width: 100%;
+                background-color: #dddddd;
+            }
+            select {
+                border: 1px solid #cccccc !important;
+                border-radius: .25rem;
+                border-width: 0.5px;
+                padding-left: 10px;
+                background-color: #dddddd;
+                height: 28px;
+                cursor: pointer;
+            }
+        }
+        th,
+        td {
+            margin: 0;
+            padding: 0.5rem;
+            border: 1px solid #cccccc;
+        }
+        tfoot {
+            background-color: cadetblue;
+        }
+    }
+}
